@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Binit - Full Stack Developer</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Poetsen+One&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+
+<body>
+  <header>
+    <nav>
+      <div class="left">Binit's <span class="purple">Portfolio</span></div>
+      <div class="right">
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact Me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="home">
+    <section class="firstSection">
+      <div class="leftSection">
+        <p>Hi, My name is <span class="purple">Binit</span></p>
+        <p>and I am a passionate</p>
+        <span id="element"></span>
+      </div>
+      <div class="rightSection">
+        <img src="WebDev.jpg" alt="Web Developer at work" />
+      </div>
+    </section>
+    <hr>
+    <section id="about" class="secondSection">
+      <h1><u>My Introduction</u></h1>
+      <div class="info">
+        <p>My name is <span class="purple">Binit Patra</span> and I am a <span class="purple">Full Stack Developer.</span> I am 20 Years Old and I live in <span class="purple">Jamshedpur</span> with my family.
+          Currently, I am pursuing my <span class="purple">B.Tech in Computer Science</span> from <span class="purple"><a class="link" href="https://arkajainuniversity.ac.in/" target="_blank" rel="noopener noreferrer">Arka Jain University</a>.</span> I have completed my +2 from <span class="purple">Central Karimia +2 High School</span>. I have completed my schooling from <span class="purple">Shyama Prasad High School.</span> My hobbies are <span class="purple">playing Cricket, Video games, and Watching Cricket</span>.
+        </p>
+      </div>
+    </section>
+    <hr>
+    <section class="thirdSection" id="projects">
+      <h1><u>My Projects</u></h1>
+      <div class="project-container">
+        <div class="project">
+          <img src="milk-product.jpg" alt="Milan Dairy Farm project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Milan Dairy Farm</a></button>
+          <h2>Product Landing Page</h2>
+        </div>
+        <div class="project">
+          <img src="survey.png" alt="Survey Form project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Survey Form</a></button>
+          <h2>Survey Form</h2>
+        </div>
+        <div class="project">
+          <img src="documentation.png" alt="Documentation project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Documentation</a></button>
+          <h2>Documentation</h2>
+        </div>
+        <div class="project">
+          <img src="tribute.png" alt="Tribute Page project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Tribute Page</a></button>
+          <h2>Tribute Page</h2>
+        </div>
+        <div class="project">
+          <img src="tribute.png" alt="Tribute Page project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Weather-App</a></button>
+          <h2>Weather Foecast Application</h2>
+        </div>
+        <div class="project">
+          <img src="tribute.png" alt="Tribute Page project screenshot">
+          <button class="button" type="button"><a href="#" target="_blank" rel="noopener noreferrer">Portfolio</a></button>
+          <h2>Binit's Portfolio</h2>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <section id="contact">
+    <div class="contact">
+      <h1>Contact Me</h1>
+      <p>If you would like to get in touch, feel free to contact me via phone or email.</p>
+      <p>Phone: <a href="tel:+8709808570">8709808570</a></p>
+      <p>Email: <a href="mailto:binitpatra870@gmail.com">binitpatra870@gmail.com</a></p>
+      
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2024 All rights reserved.</p>
+    <div class="social-media">
+      <a href="https://www.linkedin.com/in/your-linkedin-id" target="_blank" rel="noopener noreferrer"><i class="fab fa-linkedin"></i> LinkedIn</a>
+      <a href="https://github.com/your-github-id" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> Github</a>
+      <a href="https://www.facebook.com/your-facebook-id" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook"></i> Facebook</a>
+    </div>
+  </footer>
+  
+
+  <!-- Load library from the CDN -->
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+
+  <!-- Setup and start animation! -->
+  <script>
+    var typed = new Typed('#element', {
+      strings: ['Web Developer', 'Gamer.'],
+      typeSpeed: 50,
+    });
+  </script>
+</body>
+
+</html>
